@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Section1 Java- Getting started wiht java:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Section1_Java__Getting_started_wiht_java_jar</output-path>
+    <root id="archive" name="Section1 Java- Getting started wiht java.jar">
+      <element id="module-output" name="Section1 Java- Getting started wiht java" />
+    </root>
+  </artifact>
+</component>
