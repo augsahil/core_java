@@ -18,6 +18,12 @@ public class Main {
         }catch (FileNotFoundException e){
             e.printStackTrace();
         }
+
+        try{
+            main.doSenseLess();
+        }finally {
+            System.out.println("this is not manking any sense");
+        }
     }
     public void doSomething(){
         try{
@@ -34,5 +40,13 @@ public class Main {
         System.out.println("Do Something New! before");
         FileReader in = new FileReader("text.txt");
         System.out.println("Do Something New! after");
+    }
+
+    public void doSenseLess() throws RuntimeException{
+        String x = "demo";
+        if(x.equals("demo")){
+            throw new RuntimeException();
+        }
+        System.out.println("Doing senseless demo!");
     }
 }
