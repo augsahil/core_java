@@ -16,6 +16,8 @@ public class Main {
         System.out.println("search 65 in stack: "+stack.search(65));
         System.out.println("search 64 in stack: "+stack.search(64));
         System.out.println("size of stack: "+stack.size());
+        System.out.println("index of element34: "+ stack.indexOf(34));
+        System.out.println("getting numbr at index 2 stack: "+stack.get(2));
         System.out.println("pop stack: "+stack.pop());
     }
 }
