@@ -34,7 +34,7 @@ public class Main {
         System.out.println("getting element of specific index: "+ numberList2.get(2).getNum());//Manual unboxing
         System.out.println(numberList2);// ? how to print all the element of arraylist for user defined wrapper class.
 
-
+        //autoboxing-unboxing for double
         ArrayList<Double> doublesList = new ArrayList<>();
         doublesList.add(454.6);
         System.out.println(doublesList);
